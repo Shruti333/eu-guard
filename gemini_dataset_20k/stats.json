@@ -1,0 +1,52 @@
+{
+  "total_examples": 9829,
+  "labels": {
+    "EDGE_CASE": 3994,
+    "VIOLATION": 3832,
+    "SAFE": 2003
+  },
+  "categories": {
+    "G1": 1068,
+    "G2": 1129,
+    "G3": 1120,
+    "G4": 1137,
+    "G5": 1148,
+    "G6": 1088,
+    "G7": 1136
+  },
+  "languages": {
+    "bg": 409,
+    "cs": 416,
+    "da": 412,
+    "de": 413,
+    "el": 401,
+    "en": 410,
+    "es": 410,
+    "et": 408,
+    "fi": 404,
+    "fr": 412,
+    "ga": 412,
+    "hr": 407,
+    "hu": 409,
+    "it": 405,
+    "lt": 404,
+    "lv": 404,
+    "mt": 413,
+    "nl": 407,
+    "pl": 413,
+    "pt": 418,
+    "ro": 412,
+    "sk": 408,
+    "sl": 412,
+    "sv": 410
+  },
+  "unique_prompts": 9829,
+  "model": "google/gemini-3.1-flash-lite",
+  "validator_model": null,
+  "examples_per_meta": 6,
+  "train_count": 8846,
+  "val_count": 491,
+  "test_count": 492,
+  "format": "Qwen messages SFT",
+  "dpo_format": "prompt/chosen/rejected"
+}
